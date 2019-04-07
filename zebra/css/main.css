@@ -1,0 +1,245 @@
+/*Классификация */
+a, h1, h2,h3, i, p, b{
+	font-family: "Myriad Pro";
+	color: #626262;
+
+}
+.centered{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+/* Шапка */
+.container	{
+	width: 1030px;
+	padding: 0 10%;
+	margin: 0 auto;
+}
+
+.logo{
+	font-size: 38px;
+}
+.logo-main{
+	color: #626262;
+}
+.logo-decoration{
+	color: #06b5a9;
+}
+ul li{
+	display: block;
+}
+
+.menu{
+	margin: 0 auto;
+	display: inline;
+}
+.menu ul{
+	display: flex;
+}
+.menu-text{
+	display: block;
+	padding: 20px 15px;
+	color: #626262;
+}
+
+.menu-text:hover{
+	background-color: #cf1a2b;
+	color: #fff;
+}
+.dropdown-child{
+	position: absolute;
+	display: none;
+	display: flex;
+	background-color: #cf1a2b;
+}
+.tie{
+	display: block;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.dropdown-info{
+	display: none;
+	text-align: center;
+	width: 190px;
+	height: 300px;
+	padding-top: 20px;
+	border: 1px solid #d94855;
+}
+.dropdown-info p, a{
+	color: #fff;
+}
+.dropdown:hover .dropdown-child .dropdown-info{
+	display: block;
+}
+.dropdown-logo{
+	padding: 20px 43px;
+	border-bottom: 1px solid #d94855;
+}
+
+.basket{
+	padding: 20px 0;
+}
+.arrow-basket{
+	margin-left: 10px;
+}
+
+/* Второе окно */
+.about{
+	background: url(../img/zebra-1.jpg) repeat center/cover;
+	height: 570px;
+}
+
+.headline{
+	padding-top: 300px;
+	text-align: center;
+	line-height: 20px;
+}
+.headline p, h1{
+	color: #fff;
+	text-transform: uppercase;
+}
+.headline p{
+	font-size: 21px;
+	letter-spacing: 30px;
+}
+.headline h1{
+	font-family: "Impact";
+	font-size: 116px;
+}
+
+/* Третье окно */
+
+.stock{
+	margin: 0 auto;
+	width: 245px;
+	height: 260px;
+	margin-right: 20px;
+	display: flex;
+}
+
+#stock_1{
+	background-color: #58dbd3;
+}
+.order{
+	width: 110px;
+	position: relative;
+}
+.stock p, h3{
+	padding-left: 20%;
+	color: #fff;
+}
+.stock p{
+	font-size: 30px;
+}
+.stock h3{
+	font-size: 20px;
+}
+.stock-product{
+	width: 132px;
+	height: 245px;
+	margin: 0;
+}
+
+#stock_2{
+	background-color: #e4ce9a;
+}
+
+#stock_3{
+	background-color: #a69c9c;
+}
+
+#stock_4{
+	background-color: #f2ca66;
+}
+
+/* Четвортое окно */
+.product{
+	background: url(../img/zebra-2.jpg) repeat center/cover;
+	height: 565px;
+}
+.product h1{
+	font-family: "Iskoola Pota";
+	text-transform: uppercase;
+	font-size: 115px;
+	margin: 20px;
+}
+.products-circle{
+	padding-left: 25px;
+	transition: opacity 1s;
+}
+.products-circle:hover {
+	width: 208px;
+	transition: opacity 0s;
+}
+
+/* Пятое окно */
+
+.price{
+	font-size: 36px;
+	color: #000;
+}
+.bought{
+	margin-left: 80px;
+	background-color: #cf1a2b;
+	border: none;
+	padding: 5px 30px;
+}
+.add-text{
+	margin-left: 10px;
+	font-size: 28px;
+	color: #fff;
+}
+.jeans-product{
+	margin-left: 20px;
+}
+
+/* Футер */
+.footer{
+	padding: 20px 0px;
+	padding-left: 13%;
+	width: 100%;
+	height: 100px;
+	background-color: #1b2330;
+	display: inline-flex;
+}
+.navigate{
+	margin: 0 auto;
+}
+
+/* Адаптив */
+
+@media screen and (max-width: 1200px){
+	.about{
+		width: 1250px;
+	}
+	.product{
+		width: 1250px;
+	}
+	.stock-product {
+		width: 100px;
+		height: 220px;
+	}
+	.stock {
+		width: 210px;
+		height: 230px;
+	}
+	.stock p {
+		margin: 10px;
+	}
+	.products-circle {
+		width: 155px;
+	}
+	.products-circle:hover {
+		width: 165px;
+	}
+	.footer{
+		width: 1200px;
+	}
+}
