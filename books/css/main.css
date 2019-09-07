@@ -354,4 +354,7 @@ a{
 	.section{
 		width: 100%;
 	}
+	.navigation-txt{
+		padding: 10px 15px;
+	}
 }
