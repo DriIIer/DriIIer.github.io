@@ -350,7 +350,7 @@ a{
 	color: #b9b8b8;
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1200px){
 	.section{
 		width: 100%;
 	}
