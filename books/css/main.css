@@ -331,6 +331,7 @@ a{
 /* Четверый Сектор */
 
 .info{
+	height: 354px;
 	background-color: #404746;
 }
 .info-section{
@@ -355,5 +356,8 @@ a{
 	}
 	.navigation-txt{
 		padding: 10px 10px;
+	}
+	.info{
+		height: 370px;
 	}
 }
