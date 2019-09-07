@@ -355,6 +355,9 @@ a{
 		width: 100%;
 	}
 	.navigation-txt{
-		padding: 10px 15px;
+		padding: 10px 10px;
+	}
+	.info{
+		height: 360px;
 	}
 }
