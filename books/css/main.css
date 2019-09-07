@@ -349,3 +349,9 @@ a{
 .info-txt a{
 	color: #b9b8b8;
 }
+
+@media screen and (max-width: 1025px){
+	.section{
+		width: 100%;
+	}
+}
