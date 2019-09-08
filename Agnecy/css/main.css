@@ -1,0 +1,203 @@
+/* Класификации */
+body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans';
+}
+p{
+	font-family: 'Open Sans' sans-serif;
+}
+a:hover{
+	color: #fff;
+}
+
+ul li{
+	display: block;
+}
+
+/* Шапка */	
+
+header{
+	background-color: #f6f2f2;
+}
+.nav-menu{
+	margin-top: 30px;
+	background-color: #313030;
+	height: 90px;
+}
+.nav-txt a{
+	padding: 45px 25px 25px 25px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.nav-txt a:hover{
+	background-color: #ff3f40;
+}
+
+/* Описание */
+
+.description-vid{
+	padding: 90px 0;
+}
+.description h1{
+	font-weight: 900;
+	margin-bottom: 33px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+.description-txt{
+	font-weight: 100;
+	color: #6f6d6d;
+	font-size: 16px;
+	margin-bottom: 62px;
+}
+.description-btn{
+	width: 226px;
+	height: 55px;
+	background-color: #fff;
+	border: 2px solid #ff3f40;
+	border-radius: 6px;
+}
+.video{
+	width: 551px;
+	height: 356px;
+}
+
+.description-btn:hover{
+	background-color: #ff3f40
+}
+.description-btn-txt:hover{
+	color: #fff;
+}
+.description-btn-txt{
+	padding: 19px 56px;
+	color: #ff3f40;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Третяя секция */
+
+.head-txt{
+	text-transform: uppercase;
+	color: #585858;
+	margin-bottom: 40px;
+	font-size: 42px;
+	font-weight: bold;
+}
+.services{
+	margin-bottom: 41px;
+}
+.services-head{
+	font-family: 'Open Sans';
+	font-weight: 500;
+	color: #737373;
+}
+.services-txt{
+	font-family: 'Open Sans';
+	font-weight: 100;
+	color: #a0a0a0;
+	font-size: 16px;
+}
+
+/* Четвертый сектор */
+
+.future-product-menu{
+	margin-bottom: 65px;
+}
+.future-product-txt{
+	font-family: 'Open Sans';
+	font-size: 22px;
+	font-weight: 500;
+	color: #a0a0a0;
+	text-transform: uppercase;
+}
+.active-txt{
+	color: #ff2d2d;
+}
+.future-product-txt:hover{
+	color: #ff2d2d;
+	text-decoration: none;
+}
+
+.squere{
+	width: 267px;
+	height: 267px;
+	background-color: #f5f0dd;
+	margin-bottom: 20px;
+}
+
+/* Пятый сектор */
+
+.subscribe{
+	width: 510px;
+	border: 25px solid #fff;
+	border-radius: 6px;
+}
+.subscribe-btn{
+	width: 215px;
+	background-color: #ff2d2d;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: 1px;
+}
+
+/* Фyтер */
+	
+.footer-txt{
+	font-family: 'Open Sans';
+	font-weight: 100;
+	font-size: 16px;
+	color: #b8b8b8;
+}
+
+/* Адаптация */
+@media screen and (max-width: 1200px){
+
+	.video{
+		width: 375px;
+		height: 170px;
+		float: right;
+	}
+	.squere{
+		width: 230px;
+		height: 230px;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+
+	.description{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.video{
+		display: block;
+		margin: 0 auto;
+		width: 551px;
+		height: 356px;
+		float: none;
+	}
+	.squere{
+		width: 170px;
+		height: 170px;
+	}	
+	.future-product-txt{
+		font-size: 18px;
+}
+
+}
