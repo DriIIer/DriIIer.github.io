@@ -9,6 +9,6 @@
 	$message = 'Имя: $name \nНомер телефона: $phone \nБронь или вопрос: $question';
 
 	$pagetittle = 'Заявка с сайта \'$siteName\'';
-	mail($recepient, $pagetittle, $message, 'Content-type: text-plain; charset=\'utf-8\'\n From: $recepient');
+	mail($recepient, $pagetittle, $message, 'Content-type: text/plain; charset=\'utf-8\'\n From: $recepient');
 
  ?>
