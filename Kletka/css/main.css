@@ -28,6 +28,9 @@ a, h1, h2, h3, h4, h5, h6{
 	border: none;
 	cursor: pointer;
 }
+.more-btn :hover{
+	background-color: #754712;
+}
 .btn-txt{
 	font-family: 'Courier New';
 	font-size: 18px;
